@@ -28,6 +28,6 @@ public class TestBase {
     }
     @AfterClass
     public void quit(){
-      // driver.quit();
+       driver.quit();
     }
 }

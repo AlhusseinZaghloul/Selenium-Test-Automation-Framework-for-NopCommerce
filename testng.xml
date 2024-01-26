@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="Regression Test">
     <test verbose="2" preserve-order="true" name="E:/Software Testing/Automation/NopCommerce1-main/src/test/java/AddProductsToCompare.java">
-        <classes/>
+     <classes>
+         <class name="UserRegisterTest"></class>
+         <class name="UserLoginTest"></class>
+         <class name="AddToWishlistTest"></class>
+         <class name="ChangeCurrencyTest"></class>
+         <class name="ContactUsTest"></class>
+         <class name="EmailFriendTest"></class>
+         <class name="ProductReviewTest"></class>
+         <class name="RegisteredUserCheckoutProductTest"></class>
+         <class name="GuestUserCheckoutProductTest"></class>
+         <class name="SearchProductTest"></class>
+         <class name="ChangePasswordTest"></class>
+         <class name="AddProductsToCompare"></class>
+         <class name="GuestAddProductToCartTest"></class>
+         <class name="UserRegisterAndLoginTestWithDDTAndJSON"></class>
+         <class name="SearchProductUsingAutoSuggestTest"></class>
+     </classes>
     </test>
 </suite>

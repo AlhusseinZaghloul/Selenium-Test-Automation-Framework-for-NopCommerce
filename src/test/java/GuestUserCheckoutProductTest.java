@@ -17,7 +17,7 @@ public class GuestUserCheckoutProductTest extends TestBase{
     String postalCode = "710610";
     String phoneNumber = "01234567891";
     @Test
-    public void userCanSearchForProducts() {
+    public void guestUserCanCheckoutProducts() {
         //Search for product
         homePage= new HomePage(driver);
         homePage.productSearch(productName);
