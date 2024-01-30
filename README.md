@@ -1,5 +1,5 @@
 
-# Test Automation for nopCommerce Website
+# Test Automation Framework for NopCommerce Website
 
 
 This README file provides documentation for a test automation project using Selenium WebDriver for the nopCommerce website. This project is designed for a solo test automation effort.
