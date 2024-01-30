@@ -2,6 +2,8 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.RegisterPage;
 import data.JsonDataReader;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -13,6 +15,7 @@ public class UserRegisterAndLoginTestWithDDTAndJSON extends TestBase {
     private RegisterPage registerPage;
     private LoginPage loginPage;
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     public void userCanRegisterTC() throws IOException, ParseException {
        //User Registration
        homePage = new HomePage(driver);

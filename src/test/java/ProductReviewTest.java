@@ -9,7 +9,7 @@ public class ProductReviewTest extends TestBase{
     LoginPage loginPage;
     String firstName = "Alhussein";
     String lastName = "Zaghloul";
-    String email = "alhussein57@gmail.com" ;
+    String email = "alhussein3@gmail.com" ;
     String password="710710";
     String productName="Apple MacBook Pro 13-inch";
     SearchPage searchObject;

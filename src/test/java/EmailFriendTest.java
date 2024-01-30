@@ -6,7 +6,7 @@ public class EmailFriendTest extends TestBase{
     HomePage homePage ;
     RegisterPage registerPage;
     LoginPage loginPage;
-    String email = "alhussein55@gmail.com" ;
+    String email = "alhussein2@gmail.com" ;
     String productName="Apple MacBook Pro 13-inch";
     SearchPage searchObject;
     ProductDetailsPage productDetailsObject;

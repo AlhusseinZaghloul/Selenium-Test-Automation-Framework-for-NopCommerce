@@ -12,7 +12,7 @@ public class ChangePasswordTest extends TestBase {
     MyAccountPage myAccObject;
     String firstName = "Ahlhussein";
     String lastName = "Zaghloul";
-    String email = "alhussein54@gmail.com";
+    String email = "alhussein1@gmail.com";
     String password1 = "710710";
     String password2 = "810810";
 

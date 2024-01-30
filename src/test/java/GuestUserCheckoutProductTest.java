@@ -1,4 +1,7 @@
 import Pages.*;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,6 +20,8 @@ public class GuestUserCheckoutProductTest extends TestBase{
     String postalCode = "710610";
     String phoneNumber = "01234567891";
     @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("End to End Scenario from shopping as a guest to checkout")
     public void guestUserCanCheckoutProducts() {
         //Search for product
         homePage= new HomePage(driver);

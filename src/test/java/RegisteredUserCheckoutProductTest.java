@@ -1,4 +1,7 @@
 import Pages.*;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -6,7 +9,7 @@ public class RegisteredUserCheckoutProductTest extends TestBase {
     HomePage homePage ;
     RegisterPage registerPage;
     LoginPage loginPage;
-    String email = "alhussein15@gmail.com" ;
+    String email = "alhussein4@gmail.com" ;
     String password="710710";
     String firstName = "Alhussein";
     String lastName = "Zaghloul";
@@ -22,6 +25,8 @@ public class RegisteredUserCheckoutProductTest extends TestBase {
 
     //User Registration
     @Test(priority = 1)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("End to End Scenario from registration to checkout")
     public void userRegister() {
         //User Registration
         homePage = new HomePage(driver);

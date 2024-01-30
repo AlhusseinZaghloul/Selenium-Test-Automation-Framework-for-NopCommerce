@@ -1,5 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import utilities.Helper;
@@ -7,6 +9,7 @@ import utilities.Helper;
 public class TestBase {
 
     protected WebDriver driver;
+
     @BeforeClass
     public void setup(){
         driver=new ChromeDriver();
