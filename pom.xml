@@ -4,30 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>Project1</artifactId>
+    <groupId>io.github.alhusseinzaghloul</groupId>
+    <artifactId>nopcommerce-selenium-test-automation-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
      <dependencies>
          <dependency>
              <groupId>org.seleniumhq.selenium</groupId>
              <artifactId>selenium-java</artifactId>
-             <version>4.15.0</version>
+             <version>4.30.0</version>
          </dependency>
          <dependency>
              <groupId>org.testng</groupId>
              <artifactId>testng</artifactId>
-             <version>7.8.0</version>
+             <version>7.11.0</version>
              <scope>test</scope>
-         </dependency>
-         <dependency>
-             <groupId>io.github.bonigarcia</groupId>
-             <artifactId>webdrivermanager</artifactId>
-             <version>5.6.0</version>
          </dependency>
          <dependency>
              <groupId>org.seleniumhq.selenium</groupId>
              <artifactId>selenium-manager</artifactId>
-             <version>4.15.0</version>
+             <version>4.30.0</version>
          </dependency>
          <dependency>
              <groupId>com.googlecode.json-simple</groupId>
@@ -41,9 +36,45 @@
              <scope>test</scope>
          </dependency>
          <dependency>
+             <groupId>com.fasterxml.jackson.core</groupId>
+             <artifactId>jackson-databind</artifactId>
+             <version>2.18.3</version>
+         </dependency>
+         <dependency>
+             <groupId>com.google.code.gson</groupId>
+             <artifactId>gson</artifactId>
+             <version>2.12.1</version>
+         </dependency>
+         <dependency>
+             <groupId>commons-io</groupId>
+             <artifactId>commons-io</artifactId>
+             <version>2.18.0</version>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.logging.log4j</groupId>
+             <artifactId>log4j-slf4j2-impl</artifactId>
+             <version>2.24.3</version>
+             <scope>compile</scope>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.logging.log4j</groupId>
+             <artifactId>log4j-core</artifactId>
+             <version>2.24.3</version>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.logging.log4j</groupId>
+             <artifactId>log4j-api</artifactId>
+             <version>2.24.3</version>
+         </dependency>
+         <dependency>
+             <groupId>org.slf4j</groupId>
+             <artifactId>slf4j-api</artifactId>
+             <version>2.0.16</version>
+         </dependency>
+         <dependency>
              <groupId>io.qameta.allure</groupId>
-             <artifactId>allure-maven</artifactId>
-             <version>2.8</version>
+             <artifactId>allure-testng</artifactId>
+             <scope>compile</scope>
          </dependency>
          <dependency>
              <groupId>io.qameta.allure</groupId>
@@ -55,10 +86,6 @@
              <artifactId>allure-testng</artifactId>
              <version>2.25.0</version>
          </dependency>
-
-
-
-
      </dependencies>
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
