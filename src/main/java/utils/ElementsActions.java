@@ -1,4 +1,4 @@
-package utilities;
+package utils;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
