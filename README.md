@@ -25,7 +25,7 @@ Before getting started with this test automation project, make sure you have the
 ### Installation
 Clone this repository to your local machine:
 
-git clone [https://github.com/your-username/nopcommerce-test-automation.git](https://github.com/AlhusseinZaghloul/Selenium-Test-Automation-Framework-for-NopCommerce)
+git clone [https://github.com/alhusseinzaghloul/nopcommerce-test-automation.git](https://github.com/AlhusseinZaghloul/Selenium-Test-Automation-Framework-for-NopCommerce)
 
 Open the project in your preferred Java IDE (e.g., Eclipse).
 
